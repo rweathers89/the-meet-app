@@ -6,18 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://rweathers89.github.io/the-meet-app/"
-  },
-  "keywords": [
-    "meet",
-    "app",
-    "google",
-    "calendar",
-    "api"
-  ],
-  "author": "rweathers89",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "googleapis": "^110.0.0"
