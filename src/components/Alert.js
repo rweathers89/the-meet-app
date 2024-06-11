@@ -16,7 +16,7 @@ class Alert extends Component {
             borderWidth: "2px",
             borderStyle: "solid",
             fontWeight: "bolder",
-            borderRadius: "7px",
+            borderRadius: "6px",
             borderColor: this.color,
             textAlign: "center",
             fontSize: "12px",
