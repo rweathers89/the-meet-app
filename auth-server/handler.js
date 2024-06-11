@@ -107,10 +107,10 @@ module.exports.getCalendarEvents = async (event) => {
       // Handle error
       return {
         statusCode: 500,
-        headers: {
-          'Access-Control-Allow-Origin': '*',
-          'Access-Control-Allow-Credentials': true,
-        },
+        // headers: {
+        //   'Access-Control-Allow-Origin': '*',
+        //   'Access-Control-Allow-Credentials': true,
+        //  },
         body: JSON.stringify(error),
       };
     });

@@ -31,9 +31,10 @@ functions:
       handler: handler.getCalendarEvents
       events:
         - http:
-          path: auth-server-dev-getCalendarEvents/{access_token}
+          path: api/get-events/{access_token}
           method: get
 
+#auth-server-dev-getCalendarEvents/{access_token}
 # Welcome to Serverless!
 #
 # This file is the main config file for your service.

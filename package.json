@@ -29,6 +29,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test:coverage": "react-scripts test --coverage",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
@@ -53,6 +54,7 @@
   },
   "devDependencies": {
     "gh-pages": "^6.1.1",
-    "jest-cucumber": "^4.4.0"
+    "jest-cucumber": "^4.4.0",
+    "puppeteer": "^22.10.0"
   }
 }

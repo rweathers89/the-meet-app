@@ -72,6 +72,7 @@ export const getEvents = async () => {
             localStorage.setItem("lastEvents", JSON.stringify(result.events));
             return result.events;
         } else return null;
+
     }
 };
 
